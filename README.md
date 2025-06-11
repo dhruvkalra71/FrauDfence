@@ -83,7 +83,7 @@ Total Indirect Fraud Paths: 5
   
 ---
 
-## 📁 Folder Structure
+## 📁 Project Structure
 
 ```
 .
@@ -150,15 +150,16 @@ g++ main.cpp -o FraudFence
 
 ## 🏆 Achievements / Use Cases
 
-* 🌟 Demonstrated across **100,000+ transactions** with high performance
+* 🌟 Demonstrated across **550,000+ transactions** with high performance
 * 🚀 Use case: Banking audits, fintech sandboxes, cybersecurity training
-
+  
 ---
 
-## 💡 Why this Project Matters
+## 💡 Insights & Extensions
 
-This project brings together the power of **Data Structures and Algorithms** and **real-world relevance**, delivering a capable, auditable, scalable system that can evolve into production-level fraud detection software.
-
+* Detects fraud **without ML**, showcasing pure DSA power.
+* Ideal for learning fraud detection logic in a **data-driven** system.
+* Can be extended with visualization, ML-based scoring, or REST APIs.
 
 ---
 
@@ -175,13 +176,5 @@ This project brings together the power of **Data Structures and Algorithms** and
 ---
 
 ## Made with ❤️ using C++, Python, SQL, and DSA
-
----
-
-## 💡 Insights & Extensions
-
-* Detects fraud **without ML**, showcasing pure DSA power.
-* Ideal for learning fraud detection logic in a **data-driven** system.
-* Can be extended with visualization, ML-based scoring, or REST APIs.
 
 ---
