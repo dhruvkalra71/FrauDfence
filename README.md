@@ -5,15 +5,6 @@
 
 ---
 
-## 🏆 Achievements / Use Cases
-
-* ✅ 98%+ accuracy in detecting various fraud types.
-* 🏅 Shortlisted in \[Inter-College Hackathon 2025].
-* 📍 Successfully tested on 100K+ records with sub-second response time.
-* 💼 Can integrate with banking software for real-time fraud alerts.
-
----
-
 ## 🚀 Overview
 
 > *"In the digital age, credit card fraud isn’t just a threat — it’s a \$30 billion global crisis. Millions of users fall victim every year, and traditional fraud detection systems are either too slow, too opaque, or too expensive to keep up with modern fraudsters."*
@@ -52,8 +43,8 @@ As digital transactions soar and regulatory audits demand transparency, there's 
 
 * **🔍 Multi-Dimensional Fraud Checks**: Detects behavioral, temporal, and spatial fraud patterns.
 * **📊 Client-Specific Insights**: Reports generated per cardholder.
-* **⚙️ Pure DSA Implementation**: No ML dependencies; uses core algorithms.
-* **🗺️ Interactive CLI Dashboard**: Stylized terminal interface.
+* **⚙️ Pure DSA Implementation**: No ML dependencies; uses core algorithms and logic.
+* **🗺️ Interactive CLI Dashboard**: Stylized, terminal-based UI with a menu interface.
 
 ---
 
@@ -65,6 +56,42 @@ As digital transactions soar and regulatory audits demand transparency, there's 
 | Database         | MySQL                                                                     |
 | Data Source      | Real-world transactional dataset (CSV)                                    |
 | OS Compatibility | Cross-platform (Windows, Linux, macOS)                                    |
+
+---
+
+## 🧪 Sample Output
+
+```bash
+1. Checking fraud on: John Doe
+   🔴 Sudden Spending Spike Detected!!
+   🟢 No Overlapping Transactions
+   🟢 Transaction Pattern is normal
+
+Country Fraud Clusters Found: 31
+Total Indirect Fraud Paths: 5
+```
+
+---
+
+## 💾 How to Run
+
+### 📌 Prerequisites
+
+* C++17 compatible compiler (`g++`)
+* MySQL server
+* Python 3.x with `mysql-connector-python`
+  
+---
+
+## 📁 Folder Structure
+
+```
+.
+├── main.cpp                # C++ core fraud detection engine
+├── data.py                 # Python script to ingest CSV into MySQL
+├── fraudTestCSV.csv        # Real-world Transaction dataset from Kaggle
+└── README.md               # This documentation
+```
 
 ---
 
@@ -105,7 +132,7 @@ g++ main.cpp -o FraudFence
 ### Dataset
 
 * `fraudTestCSV.csv`: \~100K+ real-world credit card transactions.
-* Fields: `cc_num`, `merchant`, `amt`, `lat`, `long`, `time`, `is_fraud`, etc.
+* Fields: `trans_date_trans_time`, `cc_num`, `merchant`, `category`, `amt`, `first_name`, `last_name`, `street`, `city`, `state`, `zip`, `lat`, `long`, `job`, `trans_num`, `merch_lat`, `merch_long`, `is_fraud`
 
 ### Algorithms Implemented
 
@@ -123,9 +150,7 @@ g++ main.cpp -o FraudFence
 
 ## 🏆 Achievements / Use Cases
 
-* ✅ Built for **APS course** at **JIIT, Noida** (Semester IV)
 * 🌟 Demonstrated across **100,000+ transactions** with high performance
-* 🏅 Highlighted in university showcase as **academic innovation project**
 * 🚀 Use case: Banking audits, fintech sandboxes, cybersecurity training
 
 ---
@@ -134,19 +159,6 @@ g++ main.cpp -o FraudFence
 
 This project brings together the power of **Data Structures and Algorithms** and **real-world relevance**, delivering a capable, auditable, scalable system that can evolve into production-level fraud detection software.
 
----
-
-## 📁 Folder Structure
-
-```
-.
-├── main.cpp                # Core C++ fraud detection engine
-├── data.py                 # Python MySQL ingestion
-├── fraudTestCSV.csv        # Transaction dataset from Kaggle
-├── images/                 # UI & Demo screenshots
-├── README.md               # This documentation
-└── LICENSE                 # License info
-```
 
 ---
 
@@ -166,93 +178,10 @@ This project brings together the power of **Data Structures and Algorithms** and
 
 ---
 
-## 🧠 Key Features
-
-* 📊 **Data Ingestion**: Efficient import of real-world transactional data via MySQL (`data.py`).
-* ⚙️ **DSA-Powered Detection**: Implements classic algorithms like:
-* 🧑‍💼 **Client-wise Reports**: Individual fraud detection for each cardholder
-* 🧭 **Interactive CLI**: Stylized, terminal-based UI with a menu interface
-
----
-
-## 📂 Project Structure
-
-```bash
-├── main.cpp               # C++ core fraud detection engine (DSA-based)
-├── data.py               # Python script to ingest CSV into MySQL
-├── fraudTestCSV.csv      # Real-world transaction dataset (CSV)
-├── fraudTest_updated.csv # Optional updated dataset for testing
-└── README.md             # Project documentation
-```
-
-
-
----
-
-## 🧪 Sample Output
-
-```bash
-1. Checking fraud on: John Doe
-   🔴 Sudden Spending Spike Detected!!
-   🟢 No Overlapping Transactions
-   🟢 Transaction Pattern is normal
-
-Country Fraud Clusters Found: 31
-Total Indirect Fraud Paths: 5
-```
-
----
-
-## 💾 How to Run
-
-### 📌 Prerequisites
-
-* C++17 compatible compiler (`g++`)
-* MySQL server
-* Python 3.x with `mysql-connector-python`
-
-### 🔁 Step-by-Step Setup
-
-1. **Setup Database**
-
-```sql
-CREATE DATABASE creditCardFraud;
--- Create 'transactions' table using your desired schema (matching the CSV headers)
-```
-
-2. **Import Data (Python)**
-
-```bash
-python3 data.py
-```
-
-3. **Build & Run the C++ System**
-
-```bash
-g++ main.cpp -o FraudDetector
-./FraudDetector
-```
-
----
-
-## 📚 Dataset Fields
-
-* `trans_date_trans_time`, `cc_num`, `merchant`, `category`, `amt`, `first_name`, `last_name`, `street`, `city`, `state`, `zip`, `lat`, `long`, `job`, `trans_num`, `merch_lat`, `merch_long`, `is_fraud`
-
----
-
 ## 💡 Insights & Extensions
 
 * Detects fraud **without ML**, showcasing pure DSA power.
 * Ideal for learning fraud detection logic in a **data-driven** system.
 * Can be extended with visualization, ML-based scoring, or REST APIs.
-
----
-
-## 📈 Use Cases
-
-* Educational DSA Projects
-* Cybersecurity Simulations
-* Backend Fraud Detection Prototypes
 
 ---
