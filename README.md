@@ -14,33 +14,11 @@
 
 ---
 
-## 📊 Architecture / Flow Diagram
-
-```
-
-Raw CSV Data ➝ \[Python ETL] ➝ MySQL DB
-⬇
-\[C++ Engine Reads CSV]
-⬇
-Transaction Classification using:
-└─ DSA Algorithms:
-├─ Gradual Pattern (LIS)
-├─ Spending Spikes (Segment Tree)
-├─ Time Overlaps (Interval Tree)
-├─ Overuse Patterns (Knapsack)
-├─ Fraud Rings (Union-Find)
-└─ Indirect Links (Dijkstra)
-⬇
-Client Reports + Fraud Dashboard
-
-````
----
-
 ## 🚀 Overview
 
 > *"In the digital age, credit card fraud isn’t just a threat — it’s a \$30 billion global crisis. Millions of users fall victim every year, and traditional fraud detection systems are either too slow, too opaque, or too expensive to keep up with modern fraudsters."*
 
-We present **FrauDfence** — a **DSA-powered, Credit Card Fraud Detection System** that cuts through this complexity using pure algorithmic intelligence. Built entirely in **C++** with data ingestion in **Python and SQL**, our system detects frauds using efficient, explainable, and modular components grounded in core **Data Structures and Algorithms**.
+We present **FrauDfence** — a high-performance Credit Card Fraud Detection system developed in **C++** and **Python**, leveraging core **Data Structures & Algorithms**. It identifies frauds using patterns, behaviors, and spatial-temporal relationships from transaction data. 
 
 🎯 **What problem are we solving?**
 Fraudulent patterns today are often too complex for static rules. We observed how attackers:
@@ -186,10 +164,6 @@ This project brings together the power of **Data Structures and Algorithms** and
 
 ## Made with ❤️ using C++, Python, SQL, and DSA
 
-# 💳 Credit Card Fraud Detection System (DSA-Driven)
-
-A high-performance Credit Card Fraud Detection system developed in **C++** and **Python**, leveraging core **Data Structures & Algorithms**. It identifies frauds using patterns, behaviors, and spatial-temporal relationships from transaction data.
-
 ---
 
 ## 🧠 Key Features
@@ -211,19 +185,7 @@ A high-performance Credit Card Fraud Detection system developed in **C++** and *
 └── README.md             # Project documentation
 ```
 
----
 
-## 🛠️ Algorithms & Techniques
-
-| Fraud Type                        | Algorithm/DSA Used         | Function                                         |
-| --------------------------------- | -------------------------- | ------------------------------------------------ |
-| Gradual Increase in Spending      | Longest Increasing Subseq. | `graduallyIncreasingFraudelentTransactionAmount` |
-| Sudden Spike in Spending          | Segment Tree               | `suddenSpikeInSpending`                          |
-| Overlapping Transactions (Time)   | Interval Tree              | `detectOverlappingTransactions`                  |
-| Unusual Spending Patterns         | Knapsack (DP & Greedy)     | `unusualSpendingPatterns`                        |
-| Clustered Fraudulent Transactions | Union-Find (Kruskal)       | `clusterFraudlentTransactionsTogether`           |
-| Indirect Fraud Paths              | Dijkstra’s Algorithm       | `shortestFraudPathBetweenTransactions`           |
-| Fraud Loops (Money Laundering)    | BFS with Cycle Detection   | `fraudLoopInTransactionHistory`                  |
 
 ---
 
