@@ -1,8 +1,5 @@
 # 💳 FraudFence: DSA-Driven Credit Card Fraud Detection System
 
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/dhruvkalra71/FrauDfence)
-[![Stars](https://img.shields.io/github/stars/dhruvkalra71/FrauDfence?style=social)](https://github.com/dhruvkalra71/FrauDfence/stargazers)
-
 ---
 
 ## 🚀 Overview
