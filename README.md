@@ -1,5 +1,3 @@
----
-
 # 💳 Credit Card Fraud Detection System (DSA-Driven)
 
 A high-performance Credit Card Fraud Detection system developed in **C++** and **Python**, leveraging core **Data Structures & Algorithms**. It identifies frauds using patterns, behaviors, and spatial-temporal relationships from transaction data.
