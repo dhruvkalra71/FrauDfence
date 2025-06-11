@@ -175,6 +175,4 @@ g++ main.cpp -o FraudFence
 
 ---
 
-## Made with ❤️ using C++, Python, SQL, and DSA
-
----
+Made with ❤️ using C++, Python and DSA
