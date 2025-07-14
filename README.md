@@ -156,35 +156,35 @@ g++ main.cpp -o FraudFence
 
 ### Fraud Menu UI
 
-![Fraud Menu](images/Menu.png)
+![Fraud Menu](Images/Menu.png)
 
 ### Intro Screen
 
-![Intro](images/intro.png)
+![Intro](Images/intro.png)
 
 ### Gradual Increase Fraud
 
-![Gradual Increase Fraud](images/Demo1.png)
+![Gradual Increase Fraud](Images/Demo1.png)
 
 ### Sudden Spike in Spending Fraud
 
-![Sudden Spike in Spending Fraud](images/Demo2.png)
+![Sudden Spike in Spending Fraud](Images/Demo2.png)
 
 ### Overlapping Transaction Fraud
 
-![Gradual Increase Fraud](images/Demo3.png)
+![Gradual Increase Fraud](Images/Demo3.png)
 
 ### Unusual Spending Pattern Fraud
 
-![Unusual Spending Pattern Fraud](images/Demo4.png)
+![Unusual Spending Pattern Fraud](Images/Demo4.png)
 
 ### Fraud Clusters
 
-![Fraud Clusters](images/Demo5.png)
+![Fraud Clusters](Images/Demo5.png)
 
 ### Indirect Fraud Paths
 
-![Indirect Fraud Paths](images/Demo6.png)
+![Indirect Fraud Paths](Images/Demo6.png)
 
 ---
 
