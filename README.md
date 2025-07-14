@@ -152,14 +152,6 @@ g++ main.cpp -o FraudFence
   
 ---
 
-## 💡 Insights & Extensions
-
-* Detects fraud **without ML**, showcasing pure DSA power.
-* Ideal for learning fraud detection logic in a **data-driven** system.
-* Can be extended with visualization, ML-based scoring, or REST APIs.
-
----
-
 ## 📸 Demo Screenshots
 
 ### Fraud Menu UI
