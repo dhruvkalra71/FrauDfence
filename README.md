@@ -56,20 +56,6 @@ As digital transactions soar and regulatory audits demand transparency, there's 
 
 ---
 
-## 🧪 Sample Output
-
-```bash
-1. Checking fraud on: John Doe
-   🔴 Sudden Spending Spike Detected!!
-   🟢 No Overlapping Transactions
-   🟢 Transaction Pattern is normal
-
-Country Fraud Clusters Found: 31
-Total Indirect Fraud Paths: 5
-```
-
----
-
 ## 💾 How to Run
 
 ### 📌 Prerequisites
